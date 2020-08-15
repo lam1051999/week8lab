@@ -12,7 +12,8 @@ export default function Home({setUserTk, userTk}) {
 
   return (
     <View>
-      <Text>{userTk}</Text>
+      <Text>Home screen</Text>
+      <Text>user token: {userTk}</Text>
       <Button title="log out" onPress={logOut} />
     </View>
   );
